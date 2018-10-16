@@ -1,0 +1,38 @@
+1 org.apache.myfaces.tobago.internal.config.tobagoconfigimpl@gettheme 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.config.tobagoconfigimpl@resolvethemes 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.mock.faces.mocktheme@getresourcepath 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.context.resourcelocator@locateresourcesfromclasspath 0.03846090980814404
+1 org.apache.myfaces.tobago.context.clientproperties@setlocale 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.config.tobagoconfigimpl@setavailablethemes 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.mock.faces.mocktheme@getfallbacklist 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.config.tobagoconfigimpl@initdefaultvalidatorinfo 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@setup 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.mock.faces.mocktheme@getname 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.config.tobagoconfigimpl@addresourcedir 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.context.themebuilder@resolvethemes 0.03846090980814404
+1 org.apache.myfaces.tobago.config.tobagoconfig@getinstance 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.context.resourcelocator@locateresourcesinwar 0.03846090980814404
+1 org.apache.myfaces.tobago.context.clientproperties@reset 0.03846090980814404
+1 org.apache.myfaces.tobago.context.useragent@getinstance 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.config.tobagoconfigimpl@initprojectstate 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.context.clientpropertieskey@reset 0.03846090980814404
+1 org.apache.myfaces.tobago.context.useragent@tostring 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.context.resourcelocator@locateresourcesservlet30alike 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.context.resourcemanagerfactory@init 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.util.jndiutils@getbinding 0.03846090980814404
+1 org.apache.myfaces.tobago.context.clientproperties@settheme 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.util.jndiutils@getjndiproperty 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.context.resourcelocator@locate 0.03846090980814404
+1 org.apache.myfaces.tobago.internal.config.tobagoconfigimpl@getprojectstage 0.03846090980814404
+2 org.apache.myfaces.tobago.model.treepath@getpathstring org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@teardown 3.823161433493195e-06
+2 org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@teardown 3.823161433493195e-06
+2 org.apache.myfaces.tobago.model.treepath@getpathstring org.apache.myfaces.tobago.internal.context.resourcemanagerfactory@release 3.823161433493195e-06
+2 org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring org.apache.myfaces.tobago.internal.context.resourcemanagerfactory@release 3.823161433493195e-06
+4 org.apache.myfaces.tobago.model.treepath@getpathstring org.apache.myfaces.tobago.component.uisheetunittest@setup org.apache.myfaces.tobago.util.componentutilsunittest@testsplitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext 1.3154281523715905e-07
+4 org.apache.myfaces.tobago.model.treepath@getpathstring org.apache.myfaces.tobago.component.uisheetunittest@setup org.apache.myfaces.tobago.util.componentutils@splitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext 1.3154281523715905e-07
+4 org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring org.apache.myfaces.tobago.component.uisheetunittest@setup org.apache.myfaces.tobago.util.componentutilsunittest@testsplitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext 1.3154281523715905e-07
+4 org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring org.apache.myfaces.tobago.component.uisheetunittest@setup org.apache.myfaces.tobago.util.componentutils@splitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext 1.3154281523715905e-07
+4 org.apache.myfaces.tobago.model.treepath@getpathstring org.apache.myfaces.tobago.util.componentutilsunittest@testsplitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext org.apache.myfaces.tobago.internal.component.abstractuidata@isrowsunlimited 1.31542815237159e-07
+4 org.apache.myfaces.tobago.model.treepath@getpathstring org.apache.myfaces.tobago.util.componentutils@splitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext org.apache.myfaces.tobago.internal.component.abstractuidata@isrowsunlimited 1.31542815237159e-07
+4 org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring org.apache.myfaces.tobago.util.componentutilsunittest@testsplitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext org.apache.myfaces.tobago.internal.component.abstractuidata@isrowsunlimited 1.31542815237159e-07
+4 org.apache.myfaces.tobago.model.treepathunittest@testgetpathstring org.apache.myfaces.tobago.util.componentutils@splitlist org.apache.myfaces.tobago.internal.mock.faces.abstracttobagotestbase@getfacescontext org.apache.myfaces.tobago.internal.component.abstractuidata@isrowsunlimited 1.31542815237159e-07

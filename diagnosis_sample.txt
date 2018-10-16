@@ -1,0 +1,3 @@
+1 Main@foo 0.8
+1 Main@main 0.3
+1 Obj@foo 0

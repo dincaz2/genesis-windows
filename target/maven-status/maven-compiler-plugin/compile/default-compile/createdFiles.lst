@@ -31,8 +31,10 @@ genesis\analysis\StaticAnalyzer$3.class
 genesis\transform\CodeTransAbstractor.class
 genesis\learning\Main$CrossoverTask.class
 genesis\learning\Main.class
+genesis\repair\localization\Diagnose.class
 genesis\repair\ASTNodeFetcher$LocationScanner.class
 genesis\space\par\PARUpperBoundSet.class
+genesis\repair\localization\LocalizationAdapter.class
 genesis\schema\TransformSchema$1.class
 genesis\space\par\PARCollectionChecker1.class
 genesis\learning\Main$Round1Task.class
@@ -74,9 +76,11 @@ genesis\analysis\StaticAnalyzer$1.class
 genesis\repair\validation\TestingOracle.class
 genesis\schema\SchemaAdapter$4.class
 genesis\repair\validation\ValidationOracle$ValidationResult.class
+genesis\repair\localization\DiagnoseMethod.class
 genesis\rewrite\LiteralRewritePass.class
 genesis\space\SearchSpace$GenerationResult.class
 genesis\rewrite\CodeStyleNormalizationPass$CodeStyleScanner.class
+genesis\repair\localization\LocalizationAdapterOld.class
 genesis\repair\localization\StackTraceDefectLocalization$DefectType.class
 genesis\corpus\CodeCorpusDir.class
 genesis\rewrite\CodeStyleNormalizationPass.class
@@ -106,6 +110,7 @@ genesis\repair\ASTNodeFetcher.class
 genesis\infrastructure\AppManager$CompileSession.class
 genesis\space\par\PARCasterMutateVariable.class
 genesis\corpus\CorpusApp.class
+genesis\repair\localization\SuspiciousMethod.class
 genesis\rewrite\CodeRewritePass.class
 genesis\generator\CopyGenerator.class
 genesis\schema\TransASTFreeVar.class
@@ -121,6 +126,7 @@ genesis\space\par\PARCastChecker2.class
 genesis\transform\ManualTransformRule$TopLevelSig.class
 genesis\analysis\StaticAnalyzer$ReferenceAnalyzerImpl$ReferenceAnaBuilder.class
 genesis\node\MyCtNode$2.class
+genesis\repair\localization\MethodLineSplitter.class
 genesis\repair\compiler\JavaXToolsCompiler.class
 genesis\schema\SchemaAdapter.class
 genesis\space\SearchSpace.class
