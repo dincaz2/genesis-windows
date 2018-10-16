@@ -40,7 +40,22 @@ public class LocalizationAdapter implements DefectLocalization {
 		String diagnosticFile = runDbguer();
 		List<Diagnose> diagnoses = parseDiagnosticFile(diagnosticFile);
 		suspiciousMethodToLines(diagnoses);
-		List<SuspiciousLocation> locs = null;
+		List<SuspiciousLocation> locs = diagnoseToLocs(diagnoses);
+		return locs;
+	}
+	
+	// This is a fix for now. Later this adapter will return List<Diagnose> 
+	// to support diagnoses of 2 or more methods
+	private List<SuspiciousLocation> diagnoseToLocs(List<Diagnose> diagnoses){
+		int col = -1;
+		List<SuspiciousLocation> locs = new ArrayList<>();
+		for (Diagnose diagnose : diagnoses) {
+			if (diagnose.methods.size() != 1)
+				continue;
+			DiagnoseMethod method = diagnose.methods.get(0);
+			for (Integer line : method.lines)
+				locs.add(new SuspiciousLocation(method.srcPath, line, col, diagnose.suspiciousness));
+		}
 		return locs;
 	}
 	
@@ -124,12 +139,10 @@ public class LocalizationAdapter implements DefectLocalization {
 				classCache.put(className, cc);
 			}
 			String src = cc.getURL().getPath();
-			System.out.println("old src = " + src);
 			if (src.startsWith("/"))
 				src = src.substring(1);
 			src = src.replaceAll("target[\\\\/]classes", "src/main/java");
 			src = src.replace(".class", ".java");
-			System.out.println("src = " + src);
 			method.srcPath = src;
 			CtMethod methodX = cc.getDeclaredMethod(method.methodName);
 			int startLine = methodX.getMethodInfo().getLineNumber(0);
