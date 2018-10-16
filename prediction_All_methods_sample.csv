@@ -1,0 +1,4 @@
+component_name,fault_probability
+src\main\java\Main.java$foo,0.8
+src\main\java\Main.java$main,0.3
+src\main\java\Obj.java$foo,0
